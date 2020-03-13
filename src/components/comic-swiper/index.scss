@@ -1,0 +1,38 @@
+.swiper-container {
+    height: 100vh;
+    background-color: #161616;
+}
+
+.my-lazy-loading {
+    background-color: black;
+}
+
+.cpp-comic {
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-img {
+        height: 100%;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.swiper-wrapper {
+    transition-duration: 0ms;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.cpp-comic-img {
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+img {
+    flex-shrink:0;
+}
