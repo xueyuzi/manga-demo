@@ -17,7 +17,9 @@
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1",
     "swiper": "^5.3.6",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+
+    "@types/styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +43,5 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.0.1"
   }
 }
